@@ -1,35 +1,20 @@
-# fe
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+# Hướng dẫn cài đặt 
+### B1: Tải dự án về
+Mở **Git Bash** (Hoặc Cmd, terminal,...), gõ câu lệnh sau:
+```
+git clone https://github.com/dodaide/iot-fe.git
+```
+### B2: Cài đặt thư viện
+Đi tới folder của dự án và mở terminal lên. Gõ câu lệnh sau vào terminal
+```
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
+Nếu chưa cài đặt npm, bạn có thể tải xuống [tại đây](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+### B3: Chạy
+Sau khi đã cài đặt xong, bạn có thể sử dụng câu lệnh sau để chạy ứng dụng
+```
 npm run dev
 ```
+**Lưu ý:** hãy đảm bảo bạn đã cài đặt và chạy cả backend thì ứng dụng mới có thể hoạt động
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Chúc bạn thành công!
